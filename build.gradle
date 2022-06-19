@@ -6,7 +6,7 @@ plugins {
 
 version = '1.0'
 group = 'io.github.phi1ip83.learningmod'
-archivesBaseName = 'learningmod'
+archivesBaseName = 'learning_mod'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
@@ -24,7 +24,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', archivesBaseName
 
             mods {
-                learningmod {
+                learning_mod {
                     source sourceSets.main
                 }
             }
@@ -40,7 +40,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', archivesBaseName
 
             mods {
-                learningmod {
+                learning_mod {
                     source sourceSets.main
                 }
             }
@@ -52,7 +52,7 @@ minecraft {
             property 'forge.enabledGameTestNamespaces', archivesBaseName
 
             mods {
-                learningmod {
+                learning_mod {
                     source sourceSets.main
                 }
             }
@@ -65,7 +65,7 @@ minecraft {
             args '--mod', archivesBaseName, '--all', '--output', file('src/generated/resources/'), '--existing', file('src/main/resources/')
 
             mods {
-                learningmod {
+                learning_mod {
                     source sourceSets.main
                 }
             }
